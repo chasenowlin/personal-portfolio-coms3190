@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+
+        .project img {
+            width: 150px;
+        }
+
+        #pfp {
+            width: 150px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <img id="pfp" src= "images/profile.jpg" alt="Profile Photo">
+            <h2>Chase Nowlin</h2>
+            <p> 
+                I am a Computer Science major at Iowa State University. I am a sophomore. This is for COMS 3190.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/project1.png" alt="Project 1">
+                <h3>Personal Portfolio with HTML/CSS</h3>
+                <p>
+                    The first project focuses on designing a Web page using HTML and
+                    CSS. In terms of the layout, a navigation bar is created at the
+                    top displaying a list of menu items. We include some text
+                    describing each section of the page. Additionally, we included
+                    two images to enhance the visual appeal of the page.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-me">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>
+                You can reach out to me at 
+                <a href="mailto:cnowlin@iastate.edu">cnowlin@iastate.edu</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Chase Nowlin</p>
+    </footer>
+</body>
+</html>
